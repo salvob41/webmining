@@ -1,0 +1,54 @@
+$ python3 distances_minhash.py
+Shingling songs...
+
+Shingling 4519 docs took 477.60 sec.
+
+Average shingles per doc: 897.46
+
+Generating random hash functions...
+
+Generating MinHash signatures for all documents...
+
+Generating MinHash signatures took 16.23sec
+
+Comparing all signatures...
+
+Comparing MinHash signatures took 445.66sec
+
+List of Document Pairs with J(d1,d2) more than 0.5
+Values shown are the estimated Jaccard similarity and the actual
+Jaccard similarity.
+
+		                                                                            Est. J	Act. J
+Cristiano_De_André#Tutti_quanti_hanno_bisogno --> Cristina_Donà#Nel_Mio_Giardino	0.59	0.54
+Cristiano_De_André#Tutti_quanti_hanno_bisogno --> Daniele_Groff#Every_Day	0.59	0.52
+Cristiano_De_André#Tutti_quanti_hanno_bisogno --> Daniele_Groff#Vivere_Per_Sempre	0.57	0.58
+Cristiano_De_André#Tutti_quanti_hanno_bisogno --> Daniele_Silvestri#A_Me_Ricordi_Il_Mare	0.66	0.60
+Cristiano_De_André#Tutti_quanti_hanno_bisogno --> Daniele_Silvestri#Amarsi_Cantando	0.58	0.56
+Cristina_Donà#Nel_Mio_Giardino --> Daniele_Groff#Every_Day	0.79	0.70
+Cristina_Donà#Nel_Mio_Giardino --> Daniele_Groff#Vivere_Per_Sempre	0.73	0.70
+Cristina_Donà#Nel_Mio_Giardino --> Daniele_Silvestri#A_Me_Ricordi_Il_Mare	0.74	0.64
+Cristina_Donà#Nel_Mio_Giardino --> Daniele_Silvestri#Amarsi_Cantando	0.67	0.64
+Cristina_Donà#Nel_Mio_Giardino --> Daniele_Silvestri#Dove_sei	0.79	0.67
+Daniele_Groff#Every_Day --> Daniele_Groff#Vivere_Per_Sempre	0.72	0.67
+Daniele_Groff#Every_Day --> Daniele_Silvestri#A_Me_Ricordi_Il_Mare	0.81	0.77
+Daniele_Groff#Every_Day --> Daniele_Silvestri#Amarsi_Cantando	0.77	0.70
+Daniele_Groff#Every_Day --> Daniele_Silvestri#Dove_sei	0.86	0.76
+Daniele_Groff#Every_Day --> Daniele_Silvestri#Gino_E_L'Alfetta	0.77	0.73
+Daniele_Groff#Vivere_Per_Sempre --> Daniele_Silvestri#A_Me_Ricordi_Il_Mare	0.75	0.67
+Daniele_Groff#Vivere_Per_Sempre --> Daniele_Silvestri#Amarsi_Cantando	0.59	0.58
+Daniele_Groff#Vivere_Per_Sempre --> Daniele_Silvestri#Dove_sei	0.72	0.63
+Daniele_Groff#Vivere_Per_Sempre --> Daniele_Silvestri#Gino_E_L'Alfetta	0.78	0.73
+Daniele_Groff#Vivere_Per_Sempre --> Daniele_Silvestri#Idiota	0.72	0.65
+Daniele_Silvestri#A_Me_Ricordi_Il_Mare --> Daniele_Silvestri#Amarsi_Cantando	0.77	0.74
+Daniele_Silvestri#A_Me_Ricordi_Il_Mare --> Daniele_Silvestri#Dove_sei	0.83	0.74
+Daniele_Silvestri#A_Me_Ricordi_Il_Mare --> Daniele_Silvestri#Gino_E_L'Alfetta	0.84	0.77
+Daniele_Silvestri#A_Me_Ricordi_Il_Mare --> Daniele_Silvestri#Idiota	0.88	0.80
+Marta_sui_tubi#Lauto_Ritratto --> Massimo_Ranieri#Se_bruciasse_la_città	0.62	0.53
+Marta_sui_tubi#Lauto_Ritratto --> Mau_Mau#An_Viagi	0.63	0.60
+Marta_sui_tubi#Lauto_Ritratto --> Giorgia#E_Poi/R	0.66	0.62
+Marta_sui_tubi#Lauto_Ritratto --> Giorgia#Father	0.62	0.61
+Marta_sui_tubi#Lauto_Ritratto --> Giorgia#In_vacanza_con_me	0.59	0.59
+Massimo_Ranieri#Se_bruciasse_la_città --> Mau_Mau#An_Viagi	0.78	0.70
+Massimo_Ranieri#Se_bruciasse_la_città --> Giorgia#E_Poi/R	0.75	0.69
+Massimo_Ranieri#Se_bruciasse_la_città --> Giorgia#Father	0.74	0.67
